@@ -1,0 +1,268 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+   font-size: 100%;
+   background: rgb(135, 135, 229);
+
+}
+
+.cabecalho{
+   display: flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   background: blue;
+   
+}
+
+.cabecalho-menu{
+
+    display: flex;
+    gap:130px;
+    
+}
+
+.cabecalho-menu-item1 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item1:hover{
+ background: green;
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+
+.cabecalho-menu-item2 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item2:hover{
+ background: rgb(44, 73, 97);
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+
+.cabecalho-menu-item3 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item3:hover{
+ background: rgb(5, 65, 5);
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+.cabecalho-menu-item4 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item4:hover{
+ background: rgb(185, 128, 81);
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+.cabecalho-menu-item5 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item5:hover{
+ background: rgb(136, 7, 114);
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+.cabecalho-menu-item6 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item6:hover{
+ background: rgb(34, 52, 133);
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+.cabecalho-menu-item7 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item7:hover{
+ background: green;
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+.cabecalho-menu-item8 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+    border: 5px solid greenyellow;
+    border-radius: 15px;
+    
+}
+
+a.cabecalho-menu-item8:hover{
+ background: rgb(212, 11, 45);
+ padding: 8px;
+ border: 4px solid (rgb 8,129,6);
+ 
+}
+
+
+
+
+.conteudo{
+  border-top: 1px solid black;
+  margin-bottom: 90px;
+  
+
+}
+
+.conteudo-principal{
+  
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+  
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+    
+}
+
+.conteudo-principal-escrito-titulo{
+    font-size: 30px;
+    font-weight: 100px;
+    color: aliceblue;
+   
+}
+
+.conteudo-principal-escrito-titulo-subtitulo{
+
+    font-size: 30px;
+    font-weight: 400px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-butao{
+    
+    background: grey;
+    width: 80px;
+    height: 50px;
+
+}
+
+.conteudo-secondário{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+    
+}
+
+.conteudo-secondário-titulo{
+
+border-top: 1px solid black;
+padding-top: 48px;
+
+}
+
+.conteudo-secondário-titulo{
+
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.rodape{
+
+    border-top: 1px solid black;
+    background: blue;
+}
+
+.rodape-escrito{
+  
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
